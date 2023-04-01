@@ -1,0 +1,89 @@
+.viewall{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* .tab{
+    margin-top: 300px;
+    width: 100%;
+    margin-left: 50px;
+} */
+table, th, td {
+    margin-top: 80px;
+    border:2px solid black;
+   border-collapse: collapse;
+   font-size: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-bottom: 10px;
+
+  }
+ 
+  .view-aii-main{
+    color: white;
+    width: 99%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: url(../../assets/images/registerback.avif);
+
+  }
+
+  div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+form{
+  display: flex;
+}
+.insize{
+  width: 50px;
+}
+button{
+  background-color: blue;
+  color: white;
+  margin-left: 10px;
+  width: 70px;
+  height: 25px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+.controls{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 450px;
+  font-size: x-large;
+
+}
+.butstyle{
+  background-color: blue;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: xx-large;
+  cursor: pointer;
+}
+.filt{
+  margin-left: 300px;
+}
+input{
+  border: none;
+
+}

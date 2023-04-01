@@ -1,0 +1,43 @@
+<div class="main">
+
+
+    <mat-drawer-container class="example-container matdrawer">
+        <mat-drawer mode="side" opened class="side-box">
+            <div class="side-logo">
+                <img src="../../assets/images/sideboxlogo.png" alt="" width="250px" height="150px
+                ">
+               
+            </div>
+            <div class="student-registeration">
+                <a routerLink="studentregister"><i class="fa-solid fa-address-card"></i>&ensp;Student Registeration</a>
+            </div>
+            <div class="view-student-detials">
+                <a routerLink="view"><i class="fa-solid fa-address-card"></i>&ensp;View Student Detials </a>
+            </div>
+            <div class="update-student-detials">
+                <a routerLink="updatestudent"><i class="fa-solid fa-address-card"></i>&ensp;Update Students Detials</a>
+            </div>
+            <div class="delete-students-detials">
+                <a routerLink="deletestudent"><i class="fa-solid fa-address-card"></i>&ensp;Delete Students Detials</a>
+
+            </div>
+            <div class="view-all">
+                <a routerLink="viewallstudent"><i class="fa-solid fa-address-card"></i>&ensp;View All Students
+                    Detials</a>
+
+            </div>
+           
+        </mat-drawer>
+        <mat-drawer-content>
+            <div>
+                <app-headerbox></app-headerbox>
+
+                <div class="changebox">
+                    <router-outlet></router-outlet>
+
+                </div>
+            </div>
+        </mat-drawer-content>
+    </mat-drawer-container>
+
+</div>

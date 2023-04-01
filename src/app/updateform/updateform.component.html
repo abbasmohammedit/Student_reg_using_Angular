@@ -1,0 +1,132 @@
+<!-- 
+
+<div class="main">
+ 
+    <form action="register" [formGroup]="register" (ngSubmit)="registerdata()" >
+        <label for="fname">FIRST NAME</label><input class="inpfname" type="text" formControlName="firstname" 
+            required>
+        <br>
+        <br>
+        <label for="lname">LAST NAME</label><input class="inplname"  type="text" formControlName="lastname">
+
+        <br>
+        <br>
+        <label for="dob">DATE OF BIRTH</label>
+        <input type="date" id="birthday" name="birthday" class="dateofbirth" formControlName="dateofbirth">
+        <br>
+        <br>
+
+        <label for="email">EMAIL ID</label><input class="mail" type="email" formControlName="email"><br>
+        <br>
+        <br>
+
+        <label for="number">MOBILE NUMBER</label><input class="number" type="number" formControlName="phone"><br>
+        <br>
+
+
+
+        <div class="gender1">
+            <label for="gender">Gender:</label>
+            <div>
+                <input class="male" id="male" type="radio" value="male" name="gender" formControlName="gender">
+                <label for="male">Male</label>
+            </div>
+
+            <div>
+                <input id="female" type="radio" value="female" name="gender" formControlName="gender">
+                <label for="female">Female</label>
+            </div>
+        </div>
+        <br>
+
+        <label for="address">ADDRESS</label>
+        <textarea class="address" name="" id="" cols="30" rows="4" formControlName="address"></textarea><br>
+        <br>
+
+        <label for="city">CITY</label><input class="city" type="text" formControlName="city"><br>
+        <br>
+
+        <label for="pincode">PINCODE <input class="pincode" type="number" formControlName="pincode"></label> <br>
+        <br>
+
+        <label for="state">STATE</label><input class="state" type="text" formControlName="state"><br>
+        <br>
+
+        <label for="country">COUNTRY</label><input class="country" type="text" formControlName="country"><br>
+        <br>
+
+
+
+        <label for="hobbies">HOBBIES:</label>
+        <div *ngFor="let Hobby of Hobbies; let i=index" class="drawing">
+            <label for="">
+                <input type="checkbox" [value]="Hobby.value" (change)="onCheck($event)" />
+                {{Hobby.name}}
+
+            </label>
+
+        </div>
+
+
+
+
+
+        <br>
+        <br>
+
+        <br>
+
+
+
+
+        <label for="qualification">QUALIFICATION</label><label class="serialno" for="seno">Sl.no</label> <label
+            for="exam">Examination</label><label class="board" for="board">Board</label><label class="board"
+            for="percentage">Percentage</label><label class="board" for="year">Year of passing</label> <br>
+        <label class="other" for="1">1</label><label class="cla" for="class">Class X</label><input type="text"
+            class="insize1" formControlName="boardx"><input class="insize" type="text"
+            formControlName="percentage"><input class="insize" type="text" formControlName="passing"><br>
+
+        <label class="other" for="2">2</label><label class="cla" for="class">Class XII</label><input class="insize"
+            type="text" formControlName="board12"><input class="insize" type="text"
+            formControlName="percentage12"><input class="insize" type="text" formControlName="passing12"><br>
+        <label class="charmax" for="">(10 char max)</label><label class="decima" for="">upto 2 decimal</label>
+        <br>
+        <br>
+
+        <label for="courses">COURSES FOR <br> APPLIED</label>
+        <!-- <select class="course"(change)="getSelectedValue()">
+            <option hidden value="">choose a course</option>
+
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="MBA">MBA</option>
+            <option value="B.TECH">B.TECH</option>
+
+        </select> -->
+        <!-- <select [(ngModel)]="selectedName" class="course" [ngModelOptions]="{standalone: true}">
+            <option *ngFor="let student of students" [value]="student.name">{{student.name}}</option>
+        </select>
+
+        <br>
+        <br>
+
+        <input class="submit" type="submit"><input class="reset" type="reset">
+    </form>
+</div> -->
+
+
+
+<form action="updateform" [formGroup]="update" >
+    <label for="">name</label>
+    <input type="text" formControlName="firstname" >
+    <label for="">name</label>
+    <input type="text" formControlName="lastname">
+    <button type="submit">Submit</button>
+</form>
+
+
+
+
+<div class="st"> 
+    <span>{{getJsonValue}} </span>
+</div>

@@ -1,0 +1,21 @@
+<div class="view-student-main">
+    <div class="view-student">
+        <form action=""  (ngSubmit)="getDeletevalue()">
+            <label for="" class="enter-student-detials">Enter Registeration Number:</label>  <select name="" [(ngModel)]="valueDetails" [ngModelOptions]="{standalone: true}">
+                <option *ngFor="let value of valueDetails" [value]="value">
+                    {{ value }}
+                </option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+
+       
+    </div>
+
+    <div class="nodataimg">
+        <img src="../../assets/images/nodata.webp" alt="">
+    </div>
+
+
+
+</div>

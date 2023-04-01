@@ -1,0 +1,13 @@
+.nodataimg{
+    margin-left: 400px;
+    margin-top: 50px;
+
+  }
+  .view-error{
+    padding-top: 40px;
+    background: url(../../assets/images/whiteback.jpg);
+    padding-bottom: 200px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    background-size: cover;
+  }

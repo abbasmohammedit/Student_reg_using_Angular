@@ -1,0 +1,227 @@
+.pie-chart {
+	background:
+		radial-gradient(
+			circle closest-side,
+            rgb(213, 232, 235) 0,
+            rgb(216, 222, 223) 48.88%,
+			transparent 38.88%,
+			transparent 74%,
+			rgb(189, 197, 198) 0
+		),
+		conic-gradient(
+			from 200deg,
+			#f28e2c 0,
+			#f28e2c 40%,
+			#e15759 0,
+			#e15759 57%,
+			#76b7b2 0,
+			#76b7b2 47%,
+			#59a14f 0,
+			#59a14f 83%,
+			#edc949 0,
+			#edc949 100%
+	);
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin: 0;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.total{
+    font-weight: 700;
+    background-image: linear-gradient(to bottom right, red, yellow);
+        margin-top: 50px;
+        width: 140px;
+        height: 110px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        font-size: large;
+        text-align: center;
+        cursor: pointer;
+        margin-left: 20px;
+        color: white;
+        border-radius: 10px;
+      
+    
+    }
+    .totaltxt{
+        margin-top: 20px;
+    }
+    .total:hover{
+        background-image: linear-gradient(to bottom right, black, black);
+    
+        color: #E0FFFF;
+    }
+    .mba{
+    font-weight: 700;
+    padding-top: 10px;
+    width: 140px;
+    height: 100px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        margin-top: 50px;
+        font-size: large;
+        text-align: center;
+        background-image: linear-gradient(to bottom right, #f28e2c,	#f28e2c);
+        border-radius: 10px;
+    
+        cursor: pointer;
+    }
+    .mba:hover{
+        background-color: blueviolet;
+        color: rgb(255, 255, 255);
+    }
+    .mca{
+    font-weight: 700;
+    padding-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    width: 140px;
+    height: 100px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        margin-top: 50px;
+        font-size: large;
+        text-align: center;
+        background-image: linear-gradient(to bottom right,#e15759 , #e15759 );
+    
+    
+    
+    }
+    .mca:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+    .btech{
+    font-weight: 700;
+    padding-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    width: 140px;
+    height: 100px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        margin-top: 50px;
+        font-size: large;
+        text-align: center;
+        background-color: #59a14f   ;
+    
+    
+    }
+    .btech:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+    
+    .be{
+    font-weight: 700;
+    padding-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    width: 140px;
+    height: 100px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        margin-top: 50px;
+        font-size: large;
+        text-align: center;
+        background-image: linear-gradient(to bottom right,lightsalmon, lightgoldenrodyellow);
+    
+    
+    }
+    .be:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+    .boxex{
+        display: flex;
+        gap: 20px
+        ;
+    }
+    .download{
+        margin-top: 20px;
+        margin-left: 850px;
+        border-radius: 10px;
+        color: rgb(255, 254, 255);
+        font-size: medium;
+       
+      }
+.downbutton{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+table, th, td {
+        margin-top: 100px;
+        border:2px solid black;
+       border-collapse: collapse;
+       background-color: white;
+      text-align: center;
+      /* margin-left: 20px; */
+      margin-right: 20px;
+      border-radius: 10px;
+      font-size: 15px;
+      
+      }
+      .dash-board-main{
+        /* color: white; */
+        /* background-color: rgb(157, 149, 149); */
+        background: url(../../assets/images/newback.avif);
+        background-size: cover;
+        /* padding-bottom: 50px; */
+      }
+
+      div.scrollmenu {
+        overflow: auto;
+        white-space: nowrap;
+      }
+      
+      div.scrollmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+      }
+      
+      div.scrollmenu a:hover {
+        background-color: #777;
+      }
+
+      #content{
+     width: 100%;
+      }
+      .document{
+       width: 90px;
+      height: 30px;
+      color: white;
+      background-color: blue;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 5px;
+      }
+      select{
+        width: 200px;
+        height: 30px;
+        font-size: large;
+    border-radius: 10px;
+
+      }
+
+      @media only screen and (max-width: 1350px) {
+        .download{
+            margin-left: 200px;
+        }
+     .pie-chart{
+    width: 200px;
+    height: 150px;
+}
+
+        }

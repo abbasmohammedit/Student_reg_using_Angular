@@ -1,0 +1,116 @@
+.loginpage{
+    width: 100%;
+    height: 100%;
+    /* padding-top: 75px; */
+    display: flex;
+    background-image: url(../../assets/images/newback.avif);
+    background-size: cover;
+}
+
+.logindetials{
+  margin-top: 75px;
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.goo{
+    display: flex;
+    margin-top: 20px;
+    gap: 15px
+    ;
+}
+span{
+    color: blue;
+}
+
+.dont{
+   padding-left: 50px; 
+   padding-top: 20px;
+}
+
+.indid{
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    border: 1px solid rgb(59, 62, 62);
+    margin-left: 35px;
+}
+button{
+    cursor: pointer;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 35px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+   
+}
+.forgetpass{
+    padding-left: 220px;
+    color: blue;
+    cursor: pointer;
+}
+.google{
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+padding-left: 100px;
+padding-top: 50px;
+}
+.facebook{
+padding-top: 50px;
+
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
+
+
+.login-txt{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+.login-image{
+    background-image: url(../../assets/images/neeeww.avif);
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin-left: 280px;
+    margin-top: 75px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+
+@media only screen and (max-width: 1350px) {
+    .loginpage {
+      /* background-image: none; */
+      padding: none;
+    }
+    .login-image{
+        background-image: none;
+         width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 550px;
+        margin-left: 100px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; 
+    }
+    .logindetials{
+        background-color: white;
+        width: 400px;
+        height: 550px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+  }

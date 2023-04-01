@@ -1,0 +1,113 @@
+<div class="view-aii-main">
+    <div class="viewall" id="myBtn-4">View All student Detials</div>
+    <!-- <h1>{{getJsonValue | json}}</h1> -->
+
+<div>
+    <form action="getdate" [formGroup]="getdata" (ngSubmit)="getData()">
+        <label for="pagesize">&nbsp;&nbsp;Enter the page size :</label>
+        <input type="number" formControlName="pagesize" class="insize"> <br>
+        
+        <label for="pagesize"> &nbsp; Enter the page :</label>
+        <input type="number" formControlName="page" class="insize"><br>
+        <button type="submit">submit</button>
+
+        <label for="pagesize" class="filt">Filter By:</label>
+        <input type="date" formControlName="date1">
+        <input type="date" formControlName="date2">
+
+          <button type="submit">submit</button>
+    </form>
+</div>
+<div class="scrollmenu">
+<table style="width:100%">
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>BOB</th>
+        <th>E-mail</th>
+        <th>Gender</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>Ph.No</th>
+        <th>Hobbies</th>
+        <th>Pin Code</th>
+        <th>State</th>
+        <th>Country</th>
+        <th>qualification-10</th>
+        <th>qualification-12</th>
+        <th>Courses</th>
+    </tr>
+    <tr *ngFor="let item of getJsonValue">
+        <td>{{item.id}}</td>
+        <td>{{item.firstname}}</td>
+        <td>{{item.lastname}}</td>
+        <td>{{item.dob}}</td>
+        <td>{{item.mail}}</td>
+        <td>{{item.gender}}</td>
+        <td>{{item.address}}</td>
+        <td>{{item.city}}</td>
+        <td>{{item.phone}}</td>
+        <td>{{item.hobbies}}</td>
+        <td>{{item.pincode}}</td>
+        <td>{{item.state}}</td>
+        <td>{{item.country}}</td>
+        <td>{{item.qualification10}}</td>
+        <td>{{item.qualification12}}</td>
+        <td>{{item.courses}}</td>
+
+
+    </tr>
+</table>
+</div>
+  <div class="controls">
+    <button (click)="previousPage()" class="butstyle"><</button>
+       Page {{this.getdata.value.page + 0}} 
+    <button (click)="nextPage()" class="butstyle"> ></button>
+  </div>
+
+
+    <!-- <!-- <div class="scrollmenu"> 
+    <table style="width:100%">
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>BOB</th>
+                <th>E-mail</th>
+                <th>Gender</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>Ph.No</th>
+                <th>Hobbies</th>
+                <th>Pin Code</th>
+                <th>State</th>
+                <th>Country</th>
+                <th>qualification-10</th>
+                <th>qualification-12</th>
+                <th>Courses</th>
+            </tr>
+            <tr *ngFor="let item of getJsonValue">
+                <td>{{item.id}}</td>
+                <td>{{item.firstname}}</td>
+                <td>{{item.lastname}}</td>
+                <td>{{item.dob}}</td>
+                <td>{{item.mail}}</td>
+                <td>{{item.gender}}</td>
+                <td>{{item.address}}</td>
+                <td>{{item.city}}</td>
+                <td>{{item.phone}}</td>
+                <td>{{item.hobbies}}</td>
+                <td>{{item.pincode}}</td>
+                <td>{{item.state}}</td>
+                <td>{{item.country}}</td>
+                <td>{{item.qualification10}}</td>
+                <td>{{item.qualification12}}</td>
+                <td>{{item.courses}}</td>
+
+
+            </tr>
+    </table>
+</div> -->
+
+</div>

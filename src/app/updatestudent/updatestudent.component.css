@@ -1,0 +1,306 @@
+.view-student-main{
+    width: 100%;
+    height: 100%;
+}
+.view-student{
+    font-size: x-large;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.upinput{
+    width: 300px;
+    height: 35px;
+    background-color: rgb(200, 196, 196);
+    font-size: xx-large;
+}
+h1{
+  margin-left: 200px;
+}
+
+.modal .show{
+    display: block;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+    color: white;
+background-color: blue;
+cursor: pointer;
+font-size: 20px;
+margin-left: 10px;
+}
+
+
+p{
+    background-color: aquamarine;
+}
+
+
+.main{
+    /* background-image: linear-gradient(to right, rgb(46, 48, 48) , rgb(47, 48, 50),rgb(43, 40, 43)); */
+    background: url(../../assets/images/dark.avif);
+    padding-left: 250px;
+    padding-top: 30px;
+    color: white;
+    width: 930px;
+    background-size: cover;
+
+}
+
+.indexbox{
+    background-size: cover;
+    height: 1100px;
+    
+
+}
+.gender1{
+    display: flex;
+}
+/* .mainbox1{
+    margin-left: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 700px;
+    height: 800px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(74, 205, 248) , rgb(0, 128, 255),rgb(242, 9, 242));
+} */
+
+.male{
+    margin-left: 130px;
+}
+.inpfname{
+    margin-left: 100px;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(229, 230, 231);
+    border: 1px solid rgb(6, 6, 6);
+
+
+}
+.inplname{
+    margin-left: 103px;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(229, 230, 231);
+    border: 1px solid rgb(6, 6, 6);
+}
+.mail{
+    margin-left: 125px;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(229, 230, 231);
+    border: 1px solid rgb(6, 6, 6);
+}
+.number{
+    margin-left: 70px;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(229, 230, 231);
+    border: 1px solid rgb(6, 6, 6);
+}
+.address{
+    margin-left: 120px;
+    width: 300px;
+    background-color: rgb(229, 230, 231);
+}
+.city{
+    margin-left: 155px;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(229, 230, 231);
+    border: 1px solid rgb(6, 6, 6);
+}
+.pincode{
+    margin-left: 122px;
+    border: 1px solid rgb(6, 6, 6);
+ 
+    height: 30px;
+    width: 300px;
+    background-color: rgb(229, 230, 231);
+}
+.state{
+    margin-left: 145px;
+    border: 1px solid rgb(6, 6, 6);
+  
+    height: 30px;
+    width: 300px;
+    background-color: rgb(229, 230, 231);
+
+}
+.dateofbirth{
+    margin-left: 83px;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(229, 230, 231);
+    border: 1px solid rgb(6, 6, 6);
+
+}
+.country{
+    margin-left: 123px;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(229, 230, 231);
+    border: 1px solid rgb(6, 6, 6);
+
+}
+input{
+    background-color: rgb(229, 230, 231);
+    border: 1px solid rgb(6, 6, 6);
+
+}
+.date{
+    margin-left: 20px;
+}
+.gender{
+    margin-left: 130px;
+}
+.drawing{
+    margin-left: 183px;
+}
+.other{
+    margin-left: 190px;
+}
+.serialno{
+    margin-left: 90px;
+}
+.board{
+    margin-left: 50px;
+}
+.insize{
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.cla{
+    margin-left: 50px;
+}
+.insize1{
+    margin-left: 20px;
+    width: 120px;
+
+}
+.charmax{
+    margin-left: 290px;
+}
+.decima{
+    margin-left: 50px;
+}
+.course{
+    margin-left: 130px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(229, 230, 231);
+    border: 1px solid rgb(6, 6, 6);
+}
+.submit{
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+cursor: pointer;
+    background-color: greenyellow;
+}
+.reset{
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: red;
+}
+.arr{
+  font-size: xx-large;
+  margin-left: 200px;
+  cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.student-reg{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(10, 9, 10);
+    text-align: center;
+    padding-top: 35px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+table, th, td {
+    margin-top: 50px;
+    border:2px solid black;
+   border-collapse: collapse;
+   background-color: white;
+   /* font-size: 15px; */
+  text-align: center;
+  /* margin-left: 20px; */
+  }
+
+  .st{
+    width: 100%;
+    height: 20px;
+    background-color: #2b9f9f;
+    color: blue;
+}
+.infirst{
+    margin-left: 100px;
+    width: 300px;
+    height: 30px;
+}
+.inid{
+    margin-left: 157px;
+    width: 300px;
+    height: 30px;
+}
+.inmail{
+    margin-left: 143px;
+    width: 300px;
+    height: 30px;
+}
+.inaddress{
+    margin-left: 115px;
+    width: 300px;
+    height: 30px;
+}
+.incity{
+    margin-left: 145px;
+    width: 300px;
+    height: 30px;
+}
+.incountry{
+    margin-left: 120px;
+    width: 300px;
+    height: 30px;
+}
+.inphone{
+    margin-left: 70px;
+    width: 300px;
+    height: 30px;
+}
+.instate{
+    margin-left: 135px;
+    width: 300px;
+    height: 30px;
+}
+.inbirth{
+    margin-left: 88px;
+    width: 300px;
+    height: 30px;
+}
+.updatebutton{
+    height: 40px;
+    width: 80px;
+    color: white;
+background-color: blue;
+cursor: pointer;
+font-size: 20px;
+margin-left: 150px;
+margin-bottom: 50px;
+margin-top: 50px;
+}

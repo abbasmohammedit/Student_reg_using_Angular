@@ -1,0 +1,23 @@
+table, th, td {
+    border:2px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 50px;
+} 
+
+.view-detials{
+    padding-top: 70px;
+    padding-bottom: 90px;
+    border-radius: 10px;
+
+    background: url(../../assets/images/viewblack.jpg);
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}

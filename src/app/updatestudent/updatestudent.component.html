@@ -1,0 +1,117 @@
+<div class="view-student-main main">
+    <h1>Update Student Detials</h1>
+    <div class="view-student">
+        <form action="" [formGroup]="update" (ngSubmit)="updateMethod()">
+            <label for="" class="enter-student-detials">Enter Registeration Number:</label><input class="upinput"
+                type="text" formControlName="updatevalue">
+            <button type="submit">submit</button>
+        </form>
+    </div>
+
+
+
+
+
+    <div>
+        <label for="id">ID</label>
+
+        <input type="text" pInputText [(ngModel)]="id" disabled class="inid"> <br>
+        <br>
+        <label for="firstname">First Name</label>
+        <input type="text" pInputText [(ngModel)]="firstname" class="infirst"> <br>
+        <br>
+        <label for="lastnamename">Last Name</label>
+        <input type="text" pInputText [(ngModel)]="lastname" class="infirst"><br>
+        <br>
+        <label for="mail">Mail</label>
+
+        <input type="text" pInputText [(ngModel)]="mail" class="inmail"><br>
+        <br>
+        <label for="address">Address</label>
+        <input type="text" pInputText [(ngModel)]="address" class="inaddress"><br>
+        <br>
+        <label for="city">City</label>
+
+        <input type="text" pInputText [(ngModel)]="city" class="incity"><br>
+        <br>
+        <label for="country">Country</label>
+
+        <input type="text" pInputText [(ngModel)]="country" class="incountry"><br>
+        <br>
+        <label for="phone">Mobile Number</label>
+
+        <input type="text" pInputText [(ngModel)]="phone" class="inphone"><br>
+        <br>
+        <label for="state">State</label>
+
+        <input type="text" pInputText [(ngModel)]="state" class="instate"><br>
+        <br>
+        <label for="bob">Date of Birth</label>
+        <input type="date" pInputText [(ngModel)]="dateofBirth" class="inbirth"><br>
+        <br>
+        <div class="gender1">
+            <label for="gender">Gender:</label>
+            <div>
+                <input class="male" id="male" type="radio" value="male" name="gender" pInputText [(ngModel)]="gender">
+                <label for="male">Male</label>
+            </div>
+
+            <div>
+                <input id="female" type="radio" value="female" name="gender" pInputText [(ngModel)]="gender">
+                <label for="female">Female</label>
+            </div>
+        </div>
+        <br>
+
+        <label for="qualification">QUALIFICATION</label><label class="serialno" for="seno">Sl.no</label> <label
+            for="exam">Examination</label><label class="board" for="board">Board</label><label class="board"
+            for="percentage">Percentage</label><label class="board" for="year">Year of passing</label> <br>
+        <label class="other" for="1">1</label><label class="cla" for="class">Class X</label><input type="text"
+            class="insize1" pInputText [(ngModel)]="board10"><input class="insize" type="text" pInputText
+            [(ngModel)]="percentage10"><input class="insize" type="text" pInputText [(ngModel)]="passing10"><br>
+
+        <label class="other" for="2">2</label><label class="cla" for="class">Class XII</label><input class="insize"
+            type="text" pInputText [(ngModel)]="board12"><input class="insize" type="text" pInputText
+            [(ngModel)]="percentage12"><input class="insize" type="text" pInputText [(ngModel)]="passing12"><br>
+        <label class="charmax" for="">(10 char max)</label><label class="decima" for="">upto 2 decimal</label>
+        <br>
+        <br>
+
+      
+
+        <br>
+
+        <label for="hobbies">HOBBIES:</label>
+        <div *ngFor="let Hobby of Hobbies; let i=index" class="drawing">
+            <label for="">
+                <input type="checkbox" [value]="Hobby.value" (change)="onCheck($event)" [(ngModel)]="hobbies" />
+                {{Hobby.name}}
+
+            </label>
+
+        </div>
+        
+        <br> 
+
+        <label for="courses">COURSES FOR <br> APPLIED</label>
+        <select [(ngModel)]="selectedName" class="course" [ngModelOptions]="{standalone: true}">
+            <option *ngFor="let student of students" [value]="student.name">{{student.name}}</option>
+            
+        </select>
+        <br>
+
+
+        <button type="submit" (click)="updatedata()" class="updatebutton">update</button>
+
+
+
+
+    </div>
+
+
+
+
+
+
+</div>
+

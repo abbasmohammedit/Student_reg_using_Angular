@@ -1,0 +1,42 @@
+<div class="loginpage">
+  <div class="login-image">
+    <!-- <video src="../../assets/images/stock-footage-big-data-visualization-hud-grid-corners-motion-background-analysis-of-information-visual-data.webm" type="video/mp4"  muted autoplay loop style="width: 600px; height:550px ;">
+    </video> -->
+  </div>
+  <div class="logindetials">
+    <div class="login-txt">Login</div>
+    <form [formGroup]="login" (ngSubmit)="GetData()" autocomplete="off">
+      <input type="text" placeholder="USER NAME" class="indid" id="user" formControlName="user" required><br>
+
+      <span style="color: red; margin-left: 35px;" *ngIf="user && user.invalid && user.touched">{{dd}}</span>
+      <br>
+
+      <br>
+
+      <input type="password" placeholder="PASSWORD" class="indid" id="pass" formControlName="password" required><br>
+      <span style="color: red; margin-left: 35px;"
+        *ngIf="password && password.invalid && password.touched">{{ff}}</span>
+
+      <br>
+      <div class="forgetpass">Forget
+        password ?</div><br>
+
+      <br>
+      <button type="submit"
+        onclick="document.getElementById('user').value = '',document.getElementById('pass').value = ''">login</button>
+    </form>
+    <p class="dont">Doesn't have any account yet? <span>Sign up</span></p>
+
+    <div class="goo">
+      <div class="google">
+        <img src="../../assets/images/goog.webp" alt="" class="googleimg"
+          style="width: 75px;height: 50px; border-radius: 50%;">
+      </div>
+      <div class="facebook"><img src="../../assets/images/face.png" alt="" class="facebookimg"
+          style="width: 75px;height: 50px; border-radius: 50%;"></div>
+
+    </div>
+
+  </div>
+
+</div>
